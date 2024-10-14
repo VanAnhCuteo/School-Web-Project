@@ -12,10 +12,10 @@ document.getElementById('switch-to-login').addEventListener('click', function() 
 // Điều hướng về trang index.html khi nhấn nút đăng nhập hoặc đăng ký
 document.getElementById('login-btn').addEventListener('click', function() {
     alert('Đăng nhập thành công!');
-    window.location.href = '/index-logined.html';
+    window.location.href = 'index-logined.html';
 });
 
 document.getElementById('signup-btn').addEventListener('click', function() {
     alert('Đăng ký thành công!');
-    window.location.href = '/index-logined.html';
+    window.location.href = 'index-logined.html';
 });
